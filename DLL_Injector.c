@@ -1,5 +1,5 @@
 /*
-* Basic Windows DLL injection using CreateRemoteThread and LoadLibrary in C
+* Basic Windows DLL injection using CreateRemoteThread and LoadLibrary
 * Written by Brandon Arvanaghi (@arvanaghi)
 * Many functions and comments taken from https://msdn.microsoft.com/en-us/library/windows/desktop/hh920508(v=vs.85).aspx
 */
