@@ -85,7 +85,7 @@ HANDLE findProcess(WCHAR* processName) {
 
 	} while (Process32Next(hProcessSnap, &pe32));
 
-	printf("[---] %s has not been loaded into memory, aborting.", processName);
+	printf("[---] %s has not been loaded into memory, aborting.\n", processName);
 	return NULL;
 }
 
