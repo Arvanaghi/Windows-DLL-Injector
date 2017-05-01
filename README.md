@@ -1,6 +1,6 @@
 # Windows DLL Injector
 
-Implementation by Brandon Arvanaghi (@arvanaghi)[https://twitter.com/arvanaghi]
+Implementation by Brandon Arvanaghi (https://twitter.com/arvanaghi)[(@arvanaghi)]
 
 ## Usage:
 
