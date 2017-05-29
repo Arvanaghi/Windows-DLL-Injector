@@ -17,7 +17,7 @@ void printError(TCHAR* msg);
 
 // Main
 int wmain(int argc, wchar_t *argv[]) {
-	// I only need the executable name as a wchar*, so I can conver the path to the DLL (the other command-line arg) to char*
+	// I only need the executable name as a wchar*, so I can conver the path to the DLL (the other command-line arg) to char[]
 	const char dllPath[MAX_PATH];
 	wcstombs(dllPath, argv[2], MAX_PATH);
 
